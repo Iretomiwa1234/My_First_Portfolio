@@ -1,0 +1,127 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+  padding: 20px;
+}
+
+/* Header */
+header {
+  text-align: center;
+  padding: 40px 0 20px;
+  background-color: #1F6FB0;
+  color: white;
+  border-radius: 10px;
+}
+
+header h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.2em;
+}
+
+/* Navigation */
+nav {
+  margin: 20px auto;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #1F6FB0;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #F0A500;
+}
+
+/* Sections */
+section {
+  margin: 40px 0;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+section h2 {
+  color: #1F6FB0;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #F0A500;
+  padding-bottom: 5px;
+}
+
+/* Projects */
+.project {
+  margin-bottom: 25px;
+}
+
+.project h3 {
+  color: #F0A500;
+  margin-bottom: 5px;
+}
+
+.project p {
+  margin-bottom: 8px;
+}
+
+.project a {
+  color: #1F6FB0;
+  text-decoration: underline;
+}
+
+/* About List */
+#about ul {
+  list-style-type: disc;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+/* Contact */
+#contact ul {
+  list-style: none;
+  margin-top: 10px;
+}
+
+#contact ul li {
+  margin-bottom: 8px;
+}
+
+#contact a {
+  color: #1F6FB0;
+  text-decoration: none;
+}
+
+#contact a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  font-size: 0.9em;
+  color: #777;
+  border-top: 1px solid #ddd;
+}

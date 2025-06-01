@@ -85,4 +85,32 @@
     .back-link a:hover {
       text-decoration: underline;
     }
+     table {
+      width: 60%;
+      border: 1px solid #ddd;
+      margin: 30px auto;
+      font-family: Arial, sans-serif;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    thead {
+      background-color: #1f6fb0;
+      color: #fff;
+    }
+
+    th, td {
+      padding: 12px 20px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+
+    tbody tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+
+    tbody tr:hover {
+      background-color: #dff5fb;
+      transition: background-color 0.3s ease;
+    }
+
   
